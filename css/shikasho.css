@@ -4,3 +4,14 @@
     background-size: cover;
     height: 100vh;
 }
+
+#icon {
+    font-size: 50px;
+    transition: 0.4s;
+}
+
+#icon:hover {
+    transition: 0.4s;
+    color: white;
+    cursor: pointer;
+}
