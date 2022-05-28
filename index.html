@@ -24,7 +24,7 @@
             <nav id="navbar" class="navbar">
                 <ul>
                     <a class="text-center" href="#">Home</a>
-                    <a class="text-center" href="#">Notícias</a>
+                    <a class="text-center" href="#noticias">Notícias</a>
                     <a class="text-center" href="#">Cursos</a>
                     <a class="text-center" href="#">Sobre Nós</a>
                     <a class="text-center" href="#">Contato</a>
@@ -40,100 +40,110 @@
     <div class="jumbotron jumbotron-fluid bg-shikasho">
         <div class="gojo-container">
             <div class="gojo-element">
-                <h2 class="text-center bg-new animate__fadeInDown">Etec News</h2>
+                <h2 class="text-center bg-new animate__fadeInDown h2">Etec News</h2>
             </div>
         </div>
     </div>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-sm-8 col-md-8 shadow border-bottom border-primary rounded-bottom">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-12 col-sm-6 col-md-6">
-                            <img class="img-fluid" src="img/choque.jpg" alt="Notice">
+    <section id="noticias">
+        <div class="container-fluid mt-4">
+            <div id="carrosel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100 bg-carrosel" src="img/the-batman.jpg" alt="Primeiro Slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>The Batman</h5>
+                            <p>Vingança</p>
                         </div>
-                        <div class="col-12 col-sm-6 col-md-6">
-                            Skatista! Virgil levava uma vida normal até ganhar seus poderes e, como todo adolescente de Dakota, andava pela cidade em seu skate. Quando se tornou o Super Choque, ele precisava de um meio de transporte que permitisse chegar aos locais mais distantes
-                            de forma rápida, mas com estilo. Virgil começou surfando em tampas de bueiro ou qualquer outra coisa feita de metal. Até que acabou projetando um disco que se tornou sua marca registrada.
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100 bg-carrosel" src="img/vingança.jpg" alt="Segundo Slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>The Batman</h5>
+                            <p>Vingança</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100 bg-carrosel" src="img/bat.jpg" alt="Terceiro Slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>The Batman</h5>
+                            <p>Vingança</p>
                         </div>
                     </div>
                 </div>
+                <a class="carousel-control-prev" href="#carrosel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#carrosel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Próximo</span>
+                </a>
             </div>
-            <div class="col-12 col-sm-4 col-md-4 shadow">
-                <div class="container-fluid">
-                    <div class="row mt-3">
-                        <div class="col-sm-4 col-md-4 shadow">
-                            <img class="img-fluid" src="img/tubarao.webp">
-                        </div>
-
-                        <div class="col-sm-8 col-md-8">
-                            Tubarão com feições humanas encontrado na Indonésia é comparado com Zé Gotinha.
-                        </div>
-                    </div>
-                    <div class="row mt-3">
-                        <div class="col-sm-4 col-md-4 shadow">
-                            <img class="img-fluid" src="img/will.webp">
-                        </div>
-
-                        <div class="col-sm-8 col-md-8">
-                            O melhor crossover do ano! "Um Maluco odeia o Chris"
+        </div>
+        <div class="container mt-5">
+            <div class="section-title text-center">
+                <h2>Nóticias Destaques</h2>
+            </div>
+            <div class="row mt-3">
+                <div class="col-12 col-sm-8 col-md-8 shadow border-bottom border-primary rounded-bottom">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-12 col-sm-6 col-md-6">
+                                <img class="img-fluid" src="img/choque.jpg" alt="Notice">
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-6">
+                                Skatista! Virgil levava uma vida normal até ganhar seus poderes e, como todo adolescente de Dakota, andava pela cidade em seu skate. Quando se tornou o Super Choque, ele precisava de um meio de transporte que permitisse chegar aos locais mais distantes
+                                de forma rápida, mas com estilo. Virgil começou surfando em tampas de bueiro ou qualquer outra coisa feita de metal. Até que acabou projetando um disco que se tornou sua marca registrada.
+                            </div>
                         </div>
                     </div>
-                    <div class="row mt-3">
-                        <div class="col-sm-4 col-md-4 shadow">
-                            <img class="img-fluid" src="img/Real.jpg">
-                        </div>
+                </div>
+                <div class="col-12 col-sm-4 col-md-4 shadow">
+                    <div class="container-fluid">
+                        <div class="row mt-3">
+                            <div class="col-sm-4 col-md-4 shadow">
+                                <img class="img-fluid" src="img/tubarao.webp">
+                            </div>
 
-                        <div class="col-sm-8 col-md-8">
-                            O meme é Real!!!
+                            <div class="col-sm-8 col-md-8">
+                                Tubarão com feições humanas encontrado na Indonésia é comparado com Zé Gotinha.
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-sm-4 col-md-4 shadow">
+                                <img class="img-fluid" src="img/will.webp">
+                            </div>
+
+                            <div class="col-sm-8 col-md-8">
+                                O melhor crossover do ano! "Um Maluco odeia o Chris"
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-sm-4 col-md-4 shadow">
+                                <img class="img-fluid" src="img/Real.jpg">
+                            </div>
+
+                            <div class="col-sm-8 col-md-8">
+                                O meme é Real!!!
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="container-fluid mt-4">
-        <div id="carrosel" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="d-block w-100 bg-carrosel" src="img/the-batman.jpg" alt="Primeiro Slide">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>The Batman</h5>
-                        <p>Vingança</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100 bg-carrosel" src="img/vingança.jpg" alt="Segundo Slide">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>The Batman</h5>
-                        <p>Vingança</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100 bg-carrosel" src="img/bat.jpg" alt="Terceiro Slide">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>The Batman</h5>
-                        <p>Vingança</p>
-                    </div>
-                </div>
+    </section>
+    <section id="cursos" class="cursos">
+        <div class="container">
+            <div class="section-title text-center mt-3">
+                <h2>Nossos Cursos</h2>
             </div>
-            <a class="carousel-control-prev" href="#carrosel" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Anterior</span>
-            </a>
-            <a class="carousel-control-next" href="#carrosel" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Próximo</span>
-            </a>
         </div>
-    </div>
-
+    </section>
     <footer id="footer">
         <div class="footer-top">
             <div class="container-fluid bg-dark mt-3">
