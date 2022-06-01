@@ -91,6 +91,10 @@ a:hover {
     transition: all 0.4s;
 }
 
+.smooth{
+    scroll-behavior: smooth;
+}
+
 
 /* Contato */
 
