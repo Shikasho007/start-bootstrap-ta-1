@@ -91,7 +91,7 @@ a:hover {
     transition: all 0.4s;
 }
 
-.smooth{
+.smooth {
     scroll-behavior: smooth;
 }
 
@@ -166,4 +166,13 @@ a:hover {
 
 #contact-form .main-btn:hover {
     background-color: #3eC1d5;
+}
+
+
+/* .card-img-top {
+    position: absolute;
+} */
+
+.btn-primary {
+    position: relative;
 }
