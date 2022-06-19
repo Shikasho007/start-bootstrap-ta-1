@@ -91,8 +91,42 @@ a:hover {
     transition: all 0.4s;
 }
 
-.smooth {
-    scroll-behavior: smooth;
+
+/* Notícias Destaques */
+
+.main-title3 {
+    color: #444;
+    margin: 0 0 65px 0;
+    font-size: 40px;
+    text-align: center;
+}
+
+.main-title3::after {
+    content: "";
+    border-top: 2px solid #333;
+    width: 15%;
+    position: absolute;
+    top: 60px;
+    left: 42.5%;
+}
+
+
+/* Cursos */
+
+.main-title1 {
+    color: #444;
+    margin: 0 0 65px 0;
+    font-size: 40px;
+    text-align: center;
+}
+
+.main-title1::after {
+    content: "";
+    border-top: 2px solid #333;
+    width: 15%;
+    position: absolute;
+    top: 60px;
+    left: 42.5%;
 }
 
 
@@ -169,10 +203,26 @@ a:hover {
 }
 
 
-/* .card-img-top {
-    position: absolute;
-} */
+/* coluns cards */
 
-.btn-primary {
+.services .icon-box {
     position: relative;
+    overflow: hidden;
+    margin: 0 0 40px 0;
+    background: #fff;
+    box-shadow: 0 10px 29px 0 rgb(68 88 144 / 20%);
+    border-radius: 15px;
+    text-align: center;
+    border-bottom: 3px solid #fff;
+}
+
+.card-home .tab-content {
+    position: relative;
+    overflow: hidden;
+    margin: 0 0 40px 0;
+    background: #fff;
+    box-shadow: 0 10px 29px 0 rgb(68 88 144 / 20%);
+    border-radius: 15px;
+    text-align: center;
+    border-bottom: 3px solid #fff;
 }
