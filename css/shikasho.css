@@ -226,3 +226,8 @@ a:hover {
     text-align: center;
     border-bottom: 3px solid #fff;
 }
+
+.icon-box {
+    animation: animate__fadeInUp;
+    animation-duration: 3s;
+}
