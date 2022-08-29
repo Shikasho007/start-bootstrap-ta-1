@@ -88,13 +88,22 @@
     scroll-behavior: smooth;
 }
 
+element.style {
+    display: block;
+}
+
+#btnTop:hover {
+    background: #ffffff;
+    color: #0702ff;
+}
+
 #btnTop {
     position: fixed;
     bottom: 18px;
     right: 30px;
     height: 60px;
     width: 60px;
-    background: #9f0000;
+    background: #0400f8;
     color: #fff;
     border: none;
     border-radius: 100%;
