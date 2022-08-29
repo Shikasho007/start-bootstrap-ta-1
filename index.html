@@ -666,7 +666,24 @@
     </a>
     <script src="js/jquery-3.6.0.min.js "></script>
     <script src="js/bootstrap.js "></script>
-    <script src="js/script.js "></script>
+    <script>
+        window.onscroll = function() {
+                scroll();
+            }
+            /* Função Botão Topo */
+        function scroll() {
+            var btn = document.getElementById("btnTop");
+            if (document.documentElement.scrollTop > 200) {
+                btn.style.display = "block";
+            } else {
+                btn.style.display = "none";
+            }
+        }
+        /* Função ir para o Topo */
+        function backToTop() {
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
 </body>
 
 </html>
