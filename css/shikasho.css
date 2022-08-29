@@ -1,8 +1,3 @@
-* {
-    scroll-behavior: smooth;
-}
-
-
 /* IMG */
 
 .bg-shikasho {
@@ -89,43 +84,21 @@
 
 /* button */
 
-.back-to-top i {
-    font-size: 24px;
-    color: #fff;
-    line-height: 0;
+* {
+    scroll-behavior: smooth;
 }
 
-i {
-    font-style: italic;
-}
-
-.back-to-top.active {
-    visibility: visible;
-    opacity: 1;
-}
-
-.back-to-top:hover {
-    background: #36b4e6;
-    color: #fff;
-}
-
-a:hover {
-    color: #6c94ec;
-    text-decoration: none;
-}
-
-.back-to-top {
+#btnTop {
     position: fixed;
-    visibility: hidden;
-    opacity: 0;
-    right: 15px;
-    bottom: 15px;
-    z-index: 99999;
-    background: rgb(18, 107, 158);
-    width: 40px;
-    height: 40px;
-    border-radius: 4px;
-    transition: all 0.4s;
+    bottom: 18px;
+    right: 30px;
+    height: 60px;
+    width: 60px;
+    background: #9f0000;
+    color: #fff;
+    border: none;
+    border-radius: 100%;
+    font-size: 20px;
 }
 
 
